@@ -50,11 +50,11 @@
             this.label11 = new System.Windows.Forms.Label();
             this.nu_Teljesitmeny = new System.Windows.Forms.NumericUpDown();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.nu_Km = new System.Windows.Forms.NumericUpDown();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.button_Muvelet = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nu_Ar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nu_GyartasiEv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nu_Hengerurtartalom)).BeginInit();
@@ -279,17 +279,6 @@
             this.label12.TabIndex = 22;
             this.label12.Text = "LE";
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label13.Location = new System.Drawing.Point(530, 180);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 16);
-            this.label13.TabIndex = 21;
-            this.label13.Text = "Teljesítmény";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
-            // 
             // nu_Km
             // 
             this.nu_Km.Location = new System.Drawing.Point(246, 291);
@@ -332,18 +321,28 @@
             this.button_Muvelet.Text = "button1";
             this.button_Muvelet.UseVisualStyleBackColor = true;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label13.Location = new System.Drawing.Point(530, 180);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(84, 16);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "Teljesítmény";
+            // 
             // FormAuto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.button_Muvelet);
             this.Controls.Add(this.nu_Km);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.nu_Teljesitmeny);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.nu_Tomeg);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
@@ -401,10 +400,10 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.NumericUpDown nu_Teljesitmeny;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.NumericUpDown nu_Km;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button button_Muvelet;
+        private System.Windows.Forms.Label label13;
     }
 }
